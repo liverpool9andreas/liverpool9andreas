@@ -1,0 +1,111 @@
+metavliti_sinexeias = True
+while metavliti_sinexeias == True:
+    print("YPOLOGISMOS MESOY OROY")
+    print("doyleyei mono gia mthites gymnasiou")
+    erotisi=input("ti taji pate? prvth or deytera or trith?")
+    if erotisi=="prvth":
+        n = 19
+        ma = int(input("dvste ton bathmo tvn mathimatikvn "))
+        f = int(input("doste ton bathmo tis fysikhs"))
+        x = int(input("doste ton bathmo tis geografias"))
+        b = int(input("doste ton bathmo tis biologias"))
+        p = int(input("doste ton bathmo pliroforikhs"))
+        t = int(input("doste ton bathmo tis texnologias"))
+        tp =(t + p) / 2
+        oi = int(input("doste ton bathmo oikiakhs oikonomias"))
+        i = int(input("doste ton bathmo tis istorias"))
+        d = int(input("doste ton bathmo tvn dejiothtvn"))
+        th = int(input("doste ton bathmo tvn thriskeytikvn"))
+        m = int(input("doste ton bathmo tis moysikhs"))
+        gy = int(input("doste ton bathmo tis gymnastikhs"))
+        j = int(input("doste ton bathmo tis 2hs jenhs glvsas"))
+        ag = int(input("doste ton bathmo tvn agglikon"))
+        ka = int(input("doste ton bathmo tvn kalitexnikon"))
+        km = (ka + m) / 2
+        a = int(input("doste ton bathmo tvn arxaion"))
+        o = int(input("doste ton bathmo tis odysias"))
+        ae = (a + o) / 2
+        n = int(input("doste ton bathmo tis glossas"))
+        k = int(input("doste ton bathmo tvn keimenon"))
+        ne = (n + k) / 2
+        mesi_timi = (ma + f + x + b + tp + oi + i + d + th + gy + j + ag + km + ae + ne) / 15
+        mesi_timi = (ma + f + x + b + tp + oi + i + d + th + gy + j + ag + km + ae + ne) / 15
+        bathmos_se_15= (mesi_timi - int(mesi_timi)) * 15
+        import math
+        bathmos_se15_strog = math.ceil(bathmos_se_15)
+        print("\n")
+        print("o bathmos sas einai {} +  {}/15".format(int(mesi_timi) ,bathmos_se15_strog))
+        print("\n")
+    if erotisi=="deytera":
+        n = 19
+        ma = int(input("doste ton bathmo tvn mathimatikvn"))
+        f = int(input("doste ton bathmo tis fysikhs"))
+        x = int(input("doste ton bathmo tis xhmias"))
+        b = int(input("doste ton bathmo tis biologias"))
+        p = int(input("doste ton bathmo pliroforikhs"))
+        t = int(input("doste ton bathmo tis texnologias"))
+        tp =(t + p) / 2
+        oi = int(input("doste ton bathmo geografias"))
+        i = int(input("doste ton bathmo tis istorias"))
+        d = int(input("doste ton bathmo tvn dejiothtvn"))
+        th = int(input("doste ton bathmo tvn thriskeytikvn"))
+        m = int(input("doste ton bathmo tis moysikhs"))
+        gy = int(input("doste ton bathmo tis gymnastikhs"))
+        j = int(input("doste ton bathmo tis 2hs jenhs glvsas"))
+        ag = int(input("doste ton bathmo tvn agglikon"))
+        ka = int(input("doste ton bathmo tvn kalitexnikon"))
+        km = (ka + m) / 2
+        a = int(input("doste ton bathmo tvn arxaion"))
+        o = int(input("doste ton bathmo tis iliadas"))
+        ae = (a + o) / 2
+        n = int(input("doste ton bathmo tis glossas"))
+        k = int(input("doste ton bathmo tvn keimenon"))
+        ne = (n + k) / 2
+        mesi_timi = (ma + f + x + b + tp + oi + i + d + th + gy + j + ag + km + ae + ne) / 15
+        print("\n")
+        mesi_timi = (ma + f + x + b + tp + oi + i + d + th + gy + j + ag + km + ae + ne) / 15
+        bathmos_se_15= (mesi_timi - int(mesi_timi)) * 15
+        import math
+        bathmos_se15_strog = math.ceil(bathmos_se_15)
+        print("\n")
+        print("o bathmos sas einai {} +  {}/15".format(int(mesi_timi) ,bathmos_se15_strog))
+        print("\n")
+    if erotisi=="trith":
+        n = 19
+        ma = int(input("doste ton bathmo tvn mathimatikvn"))
+        f = int(input("doste ton bathmo tis fysikhs"))
+        x = int(input("doste ton bathmo tis xhmias"))
+        b = int(input("doste ton bathmo tis biologias"))
+        p = int(input("doste ton bathmo pliroforikhs"))
+        t = int(input("doste ton bathmo tis texnologias"))
+        tp =(t + p) / 2
+        oi = int(input("doste ton bathmo kpa"))
+        i = int(input("doste ton bathmo tis istorias"))
+        d = int(input("doste ton bathmo tvn dejiothtvn"))
+        th = int(input("doste ton bathmo tvn thriskeytikvn"))
+        m = int(input("doste ton bathmo tis moysikhs"))
+        gy = int(input("doste ton bathmo tis gymnastikhs"))
+        j = int(input("doste ton bathmo tis 2hs jenhs glvsas"))
+        ag = int(input("doste ton bathmo tvn agglikon"))
+        ka = int(input("doste ton bathmo tvn kalitexnikon"))
+        km = (ka + m) / 2
+        a = int(input("doste ton bathmo tvn arxaion"))
+        o = int(input("doste ton bathmo tis elenis"))
+        ae = (a + o) / 2
+        n = int(input("doste ton bathmo tis glossas"))
+        k = int(input("doste ton bathmo tvn keimenon"))
+        ne = (n + k) / 2
+        mesi_timi = (ma + f + x + b + tp + oi + i + d + th + gy + j + ag + km + ae + ne) / 15
+        mesi_timi = (ma + f + x + b + tp + oi + i + d + th + gy + j + ag + km + ae + ne) / 15
+        bathmos_se_15= (mesi_timi - int(mesi_timi)) * 15
+        import math
+        bathmos_se15_strog = math.ceil(bathmos_se_15)
+        print("\n")
+        print("o bathmos sas einai {} +  {}/15".format(int(mesi_timi) ,bathmos_se15_strog))
+        print("\n")
+    erotisi=input("Thelete na sinexisete? yes or no?")
+    if erotisi=="yes":
+        metavliti_sinexeias=True
+    else:
+        metavliti_sinexeias=False
+        #metavliti_sinexeias=True
