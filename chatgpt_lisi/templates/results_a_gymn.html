@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="../static/css/diakosmisi_ypologismoy.css">
+    <title>υπολογισμός βαθμου τετραμήνου α' γυμνασιου</title>
+</head>
+<body>
+    <h1>α' γυμνασιου</h1>
+    <h2>υπολογισμός βαθμου α' τετραμήνου</h2>
+    <form method="POST">
+        <label for="value1">Βαθμος πληροφορικης:</label>
+        <input type="text" name="value1" id="value1">
+        <br><br>
+        <label for="value2">Βαθμος τεχνολογιας:</label>
+        <input type="text" name="value2" id="value2">
+        <br><br>
+        <label for="value3">Βαθμος καλλιτεχνικων:</label>
+        <input type="text" name="value3" id="value3">
+        <br><br>
+        <label for="value4">Βαθμος μουσικης:</label>
+        <input type="text" name="value4" id="value4">
+        <br><br>
+        <label for="value5">Βαθμος γλωσσας:</label>
+        <input type="text" name="value5" id="value5">
+        <br><br>
+        <label for="value6">βαθμος κειμενων:</label>
+        <input type="text" name="value6" id="value6">
+        <br><br>
+        <label for="value7">βαθμος οδυσσειας:</label>
+        <input type="text" name="value7" id="value7">
+        <br><br>
+        <label for="value8">Βαθμος αρχαιων:</label>
+        <input type="text" name="value8" id="value8">
+        <br><br>
+        <label for="value9">Βαθμος οικιακης οικονομιας:</label>
+        <input type="text" name="value9" id="value9">
+        <br><br>
+        <label for="value10">Βαθμος βιολογιας:</label>
+        <input type="text" name="value10" id="value10">
+        <br><br>
+        <label for="value11">Βαθμος φυσικης:</label>
+        <input type="text" name="value11" id="value11">
+        <br><br>
+        <label for="value12">Βαθμος μαθιματικων:</label>
+        <input type="text" name="value12" id="value12">
+        <br><br>
+        <label for="value13">Βαθμος γεωγραφιας:</label>
+        <input type="text" name="value13" id="value13">
+        <br><br>
+        <label for="value14">Βαθμος θρησκευτικων:</label>
+        <input type="text" name="value14" id="value14">
+        <br><br>
+        <label for="value15">Βαθμος αγγλικων:</label>
+        <input type="text" name="value15" id="value15">
+        <br><br>
+        <label for="value16">Βαθμος γερμανικων :</label>
+        <input type="text" name="value16" id="value16">
+        <br><br>
+        <label for="value17">Βαθμος ιστοριας:</label>
+        <input type="text" name="value17" id="value17">
+        <br><br>
+        <label for="value18">Βαθμος γυμναστικης:</label>
+        <input type="text" name="value18" id="value18">
+        <br><br>
+        <label for="value19">Βαθμος δεξιοτητων:</label>
+        <input type="text" name="value19" id="value19">
+        <br><br>
+        <input type="submit" value="υποβολή">
+    </form>
+
+    {% if final_mean %}
+        <h2>Βαθμός: {{ final_mean }}</h2>
+    {% endif %}
+</body>
+</html>

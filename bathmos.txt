@@ -4,6 +4,7 @@ thessaloniki 6/2/2023
 '''
 
 
+def ypologismos_mesou_orou
 metavliti_sinexeias = True
 while metavliti_sinexeias == True:
     print("YPOLOGISMOS MESOY OROY")

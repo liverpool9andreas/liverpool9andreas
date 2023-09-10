@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>epilogi_tajis</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="{{ url_for('static', filename='css/css1.css') }}" rel="stylesheet">
+        
+    </head>
+    <body>
+        <h1 id="tittle">epilogi_tajis</h1>
+        <form action="{{ url_for('mesos_oros') }}"  method="post">
+        <label for="cars">ti taji pate:</label>
+        <select id="taji" name="taji_html">
+            <option value="a">a</option>
+            <option value="b">b</option>
+            <option value="c">c</option>
+        </select>
+        <input type="submit" value="Submit">
+        </form>
+        
+
+
+
+
+
+
+        <!--<div>timi_apo_to_arxeio_python:{{mesi_timi}}</div>-->
+    </body>
+</html>

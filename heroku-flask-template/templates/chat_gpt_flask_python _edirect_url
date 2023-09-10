@@ -1,0 +1,37 @@
+from flask import Flask, render_template, request, redirect, url_for
+
+app = Flask(__name__)
+
+@app.route('/')
+def index():
+    return render_template('index.html')
+
+@app.route('/submit', methods=['POST'])
+def submit():
+    # Process the form data here
+    # ...
+
+    # Redirect to the desired URL
+    return redirect(url_for('new_page'))
+
+@app.route('/new_page')
+def new_page():
+    return render_template('new_page.html')
+
+
+
+
+
+
+
+<form action="{{ url_for('submit') }}" method="POST">
+    <!-- Form fields go here -->
+    <button type="submit">Submit</button>
+</form>
+
+
+
+
+<form action="{{ url_for('old_route', name='Alice') }}" method="GET">
+    <button type="submit">Click here</button>
+</form>

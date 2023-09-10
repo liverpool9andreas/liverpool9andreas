@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>ypologismos_mesoy_orou_bathmou_tetramhnou</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="{{ url_for('static', filename='css/css1.css') }}" rel="stylesheet">
+        
+    </head>
+    <body>
+        <h1 id="tittle">ypologismos_mesoy_orou_bathmou_tetramhnou</h1>
+        <label for="cars">ti taji pate:</label>
+        <select id="taji" name="taji_html">
+            <option value="a">a</option>
+            <option value="b">b</option>
+            <option value="c">c</option>
+        </select>
+        <form action="/submit" method="post">
+            <label for="name">mathimatika:</label>
+            <input type="text" id="name" name="mathimatika_html" required>
+            <br>
+            <label for="bathmos">fysiki:</label>
+            <input type="bathmos" id="bathmos" name="fysiki_html" required>
+            <br>
+            <input type="submit" value="Submit">
+          </form>
+        
+
+
+
+
+
+
+
+
+        <!--<div>timi_apo_to_arxeio_python:{{mesi_timi}}</div>-->
+    </body>
+</html>
