@@ -96,12 +96,24 @@ def result(option):
         elif option == "option2":
             return render_template('results_b_gymn.html', final_mean=final_mean )
         elif option == "option3":
-            return render_template('result.html', final_mean=final_mean )
+            return render_template('results_g_gymn.html', final_mean=final_mean )
+        elif option == "option4":
+            return render_template('results_a_lykeiou.html', final_mean=final_mean )
+        elif option == "option5":
+            return render_template('results_b_lykeiou.html', final_mean=final_mean )
+        elif option == "option6":
+            return render_template('results_g_lykeiou.html', final_mean=final_mean )
     if option == "option1":
         return render_template('results_a_gymn.html', final_mean=None)
     if option == "option2":
         return render_template('results_b_gymnasioy.html', final_mean=None)
     if option == "option3":
         return render_template('result.html', final_mean=None)
+    elif option == "option4":
+        return render_template('results_a_lykeioy.html', final_mean=None )
+    elif option == "option5":
+        return render_template('results_b_lykeiou.html', final_mean=None )
+    elif option == "option6":
+        return render_template('results_g_lykeiou.html', final_mean=None )
 if __name__ == '__main__':
     app.run(debug=True)
